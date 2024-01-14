@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz app</title>
+  <link rel="stylesheet" href="quiz.css">
+  <script defer src="quiz.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="play_screen">
+      <h1>Choose a quiz category:</h1>
+      <br>
+      <select id="category_select">
+        <option value="random">Random category</option>
+        <option value="music">Music</option>
+        <option value="sport_and_leisure">Sport and leisure</option>
+        <option value="film_and_tv">Film and tv</option>
+        <option value="arts_and_literature">Arts and literature</option>
+        <option value="history">History</option>
+        <option value="society_and_culture">Society and culture</option>
+        <option value="science">Science</option>
+        <option value="geography">Geography</option>
+        <option value="food_and_drink">Foods and drinks</option>
+        <option value="general_knowledge">General knowledge</option>
+      </select>
+      <br>
+      <h2>Choose a difficulty:</h2>
+      <br>
+      <select id="difficulty_select">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <br>
+      <button id="play_button">Play</button>
+      <br>
+      <div class="get_quiz_error">
+        Failed to get quiz
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
